@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class LibraryBookManagementJava {
     private static final String URL = "jdbc:mysql://localhost:3306/mydb";
-    private static final String USER = "root";  // Change to your MySQL username
-    private static final String PASSWORD = "Temp!1234";  // Change to your MySQL password
+    private static final String USER = "root";  
+    private static final String PASSWORD = "Temp!1234";
 
     private static Connection conn;
     private static Scanner scanner = new Scanner(System.in);
